@@ -29,5 +29,7 @@ namespace ReZit.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<Posts> Posts { get; set; }
     }
-}
+}   
